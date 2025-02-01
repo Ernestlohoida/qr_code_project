@@ -1,0 +1,32 @@
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'base.css' %}">
+    </head>
+    <body>
+       
+        <header>
+            <nav>
+                <p>QR-code</p>
+                <p>Create QR-code</p>
+                <p>My QR-codes</p>
+                <p>Contacts</p>
+                <p>Registration</p>
+                <p>Login</p>
+            </nav>
+        </header>
+        {% block content %}
+        {% endblock %}
+        <footer>
+            <nav>
+                <p>We are on social networks:</p>
+                <p>Contacts: +380997157472</p>
+                <p>© 2025, Hello kitty, All rights reserved.</p>
+            </nav>
+        </footer>
+        
+    </body>
+</html>
