@@ -1,15 +1,29 @@
 body {
     background-color: #ffecec;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+   
 }
+
 
 
 header {
-    background: linear-gradient(to right, #f8a8b9, #7a4b4b);
+    background: linear-gradient(to right, #EAA7A7, #845E5E);
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 48px;
+    
 }
+
+
+
+footer{
+    display: flex;
+    background: linear-gradient(to right, #EAA7A7, #845E5E);
+    text-align: center;
+    
+}
+
+
+
+
